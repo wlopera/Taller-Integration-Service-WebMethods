@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="node_type">webServiceDescriptor</value>
+  <value name="node_nsName">tallerIS.ws.provider:TALLER_publicarServicios</value>
+  <value name="node_pkg">TallerIS</value>
+  <value name="node_comment"></value>
+  <value name="is_public">false</value>
+  <Boolean name="inbound">true</Boolean>
+  <Boolean name="WSICompliant">false</Boolean>
+  <value name="SOAPProtocol">SOAP 1.1 Protocol</value>
+  <value name="targetNamespace">http://pranical-2016/tallerIS.ws.provider:TALLER_publicarServicios</value>
+  <Boolean name="attachmentEnabled">false</Boolean>
+  <number name="mtomThreshold" type="Integer">0</number>
+  <null name="externalWSDL"/>
+  <null name="externalWSDLURL"/>
+  <value name="WSDLURL">http://pranical-2016:5555/ws/tallerIS.ws.provider:TALLER_publicarServicios?WSDL</value>
+  <value name="definitionName">TALLER_publicarServicios</value>
+  <value name="version">_9_5</value>
+  <null name="schemaDomain"/>
+  <Boolean name="rawArray">true</Boolean>
+  <array name="handlerList" type="record" depth="1">
+  </array>
+  <array name="binderList" type="record" depth="1">
+    <record javaclass="com.wm.util.Values">
+      <value name="binderName">tallerIS_ws_provider_TALLER_publicarServicios_Binder</value>
+      <value name="portAddress"></value>
+      <value name="portAlias">EnpointTaller</value>
+      <value name="bindingName">tallerIS_ws_provider_TALLER_publicarServicios_Binder</value>
+      <value name="bindingStyle">document</value>
+      <value name="bindingUse">literal</value>
+      <value name="bindingType">SOAP</value>
+      <value name="portName">tallerIS_ws_provider_TALLER_publicarServicios_Port</value>
+      <value name="portTypeName">TALLER_publicarServicios_PortType</value>
+      <value name="bindingTransport">http://schemas.xmlsoap.org/soap/http</value>
+      <value name="transportType">http</value>
+      <record name="operationMap" javaclass="com.wm.util.Values">
+        <value name="tallerIS_ws_provider_TALLER_publicarServicios_Binder_evaluarBranch">evaluarBranch</value>
+        <value name="tallerIS_ws_provider_TALLER_publicarServicios_Binder_evaluarSequence">evaluarSequence</value>
+        <value name="tallerIS_ws_provider_TALLER_publicarServicios_Binder_evaluarLoop">evaluarLoop</value>
+      </record>
+      <value name="SOAPProtocol">SOAP 1.1 Protocol</value>
+      <value name="SOAPDirective">ws</value>
+      <Boolean name="useCSQ">false</Boolean>
+    </record>
+  </array>
+  <array name="operationList" type="record" depth="1">
+    <record javaclass="com.wm.util.Values">
+      <value name="operationName">evaluarBranch</value>
+      <value name="serviceName">tallerIS.services:evaluarBranch</value>
+      <record name="requestElement" javaclass="com.wm.util.Values">
+        <array name="headers" type="record" depth="1">
+        </array>
+        <record name="body" javaclass="com.wm.util.Values">
+          <value name="name">evaluarBranch</value>
+          <value name="nsOwner">tallerIS.services:evaluarBranch</value>
+          <number name="nsOwnerType" type="Integer">1</number>
+          <Boolean name="addedByClient">false</Boolean>
+          <value name="originalDocName"></value>
+        </record>
+        <array name="faults" type="record" depth="1">
+        </array>
+      </record>
+      <record name="responseElement" javaclass="com.wm.util.Values">
+        <array name="headers" type="record" depth="1">
+        </array>
+        <record name="body" javaclass="com.wm.util.Values">
+          <value name="name">evaluarBranchResponse</value>
+          <value name="nsOwner">tallerIS.services:evaluarBranch</value>
+          <number name="nsOwnerType" type="Integer">2</number>
+          <Boolean name="addedByClient">false</Boolean>
+          <value name="originalDocName"></value>
+        </record>
+        <array name="faults" type="record" depth="1">
+        </array>
+      </record>
+    </record>
+    <record javaclass="com.wm.util.Values">
+      <value name="operationName">evaluarLoop</value>
+      <value name="serviceName">tallerIS.services:evaluarLoop</value>
+      <record name="requestElement" javaclass="com.wm.util.Values">
+        <array name="headers" type="record" depth="1">
+        </array>
+        <record name="body" javaclass="com.wm.util.Values">
+          <value name="name">evaluarLoop</value>
+          <value name="nsOwner">tallerIS.services:evaluarLoop</value>
+          <number name="nsOwnerType" type="Integer">1</number>
+          <Boolean name="addedByClient">false</Boolean>
+          <value name="originalDocName"></value>
+        </record>
+        <array name="faults" type="record" depth="1">
+        </array>
+      </record>
+      <record name="responseElement" javaclass="com.wm.util.Values">
+        <array name="headers" type="record" depth="1">
+        </array>
+        <record name="body" javaclass="com.wm.util.Values">
+          <value name="name">evaluarLoopResponse</value>
+          <value name="nsOwner">tallerIS.services:evaluarLoop</value>
+          <number name="nsOwnerType" type="Integer">2</number>
+          <Boolean name="addedByClient">false</Boolean>
+          <value name="originalDocName"></value>
+        </record>
+        <array name="faults" type="record" depth="1">
+        </array>
+      </record>
+    </record>
+    <record javaclass="com.wm.util.Values">
+      <value name="operationName">evaluarSequence</value>
+      <value name="serviceName">tallerIS.services:evaluarSequence</value>
+      <record name="requestElement" javaclass="com.wm.util.Values">
+        <array name="headers" type="record" depth="1">
+        </array>
+        <record name="body" javaclass="com.wm.util.Values">
+          <value name="name">evaluarSequence</value>
+          <value name="nsOwner">tallerIS.services:evaluarSequence</value>
+          <number name="nsOwnerType" type="Integer">1</number>
+          <Boolean name="addedByClient">false</Boolean>
+          <value name="originalDocName"></value>
+        </record>
+        <array name="faults" type="record" depth="1">
+        </array>
+      </record>
+      <record name="responseElement" javaclass="com.wm.util.Values">
+        <array name="headers" type="record" depth="1">
+        </array>
+        <record name="body" javaclass="com.wm.util.Values">
+          <value name="name">evaluarSequenceResponse</value>
+          <value name="nsOwner">tallerIS.services:evaluarSequence</value>
+          <number name="nsOwnerType" type="Integer">2</number>
+          <Boolean name="addedByClient">false</Boolean>
+          <value name="originalDocName"></value>
+        </record>
+        <array name="faults" type="record" depth="1">
+          <record javaclass="com.wm.util.Values">
+            <value name="name">error</value>
+            <value name="docType">tallerIS.docs:error</value>
+            <value name="nsOwner">tallerIS.docs:error</value>
+            <number name="nsOwnerType" type="Integer">3</number>
+            <Boolean name="addedByClient">true</Boolean>
+          </record>
+        </array>
+      </record>
+    </record>
+  </array>
+  <record name="namespaces" javaclass="com.wm.util.Values">
+    <value name="tns">http://pranical-2016/tallerIS.ws.provider:TALLER_publicarServicios</value>
+    <value name="wsdl">http://schemas.xmlsoap.org/wsdl/</value>
+    <value name="xsd">http://www.w3.org/2001/XMLSchema</value>
+    <value name="http">http://schemas.xmlsoap.org/wsdl/http/</value>
+    <value name="mime">http://schemas.xmlsoap.org/wsdl/mime/</value>
+    <value name="soapenc">http://schemas.xmlsoap.org/soap/encoding/</value>
+    <value name="soap12">http://schemas.xmlsoap.org/wsdl/soap12/</value>
+    <value name="soap">http://schemas.xmlsoap.org/wsdl/soap/</value>
+    <value name="soapjms">http://www.w3.org/2010/soapjms/</value>
+  </record>
+  <Boolean name="HeadersInPipelineEnabled">false</Boolean>
+  <Boolean name="validateSOAPResponse">true</Boolean>
+  <Boolean name="validateSchemaUsingXerces">true</Boolean>
+  <Boolean name="enableCompatibility">false</Boolean>
+  <Boolean name="registerDoctypes">false</Boolean>
+  <Boolean name="allTypes">false</Boolean>
+  <Boolean name="generateXOPObjectForBase64Binary">false</Boolean>
+  <null name="originURI"/>
+  <null name="modifiable"/>
+  <null name="policyAttachmentList"/>
+</Values>
